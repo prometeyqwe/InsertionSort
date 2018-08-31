@@ -1,3 +1,2 @@
-#Algorithm
-
+# Algorithm
 InsertionSort
