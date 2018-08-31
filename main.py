@@ -11,12 +11,11 @@ def insertion_sort(input_arr):
         input_arr[j+1] = temp
     return input_arr
 
-arr = []
-
-for i in range(10):
-    arr.append(random.randint(0,100))
 
 #----- using sort -----
+arr = []
+for i in range(10):
+    arr.append(random.randint(0,100))
 print arr
 arr = insertion_sort(arr)
 print arr
